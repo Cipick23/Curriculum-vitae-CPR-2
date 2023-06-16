@@ -1,0 +1,195 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Montserrat alternates', sans-serif;
+}
+
+/* right-section styles */
+
+.right-section {
+    padding-left: 90px;
+    background-color: #fff;
+    padding-right: 220px;
+}
+
+.about-me-profession {
+    font-family: Montserrat;
+    font-style: Bold;
+    Line-height: 17px;
+    Line-height: 100%;
+    font-size: 14px;
+    color: black;
+    margin-top: 100px;
+}
+
+.about-me-name {
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 45px;
+    Line-height: 55px;
+    Line-height: 100%;
+    margin-top: 30px;
+}
+
+.about-description { 
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+}
+
+.about-description {
+    margin-left: 15px;
+    padding-left: 0px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.about-me-section {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.projects-sections {
+    margin: 40px 0 0 0; 
+}
+
+.block-title {
+    Font-family: Montserrat;
+    Font-style: Bold;
+    Font-size: 22px;
+    Line-height: 27px;
+    Line-height: 100%;
+}
+
+.about-address {
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+}
+
+.bracket {
+    Font-family: Montserrat;
+    Font-style: Mixed;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 141%;
+    font-weight: 700;
+    color: #000;
+}
+
+.work-experience-section {
+}
+
+.projects-item {
+    Font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    Font-size: 14px;
+    Line-height: 24px;
+    text-decoration-line: underline;
+    color: #595959;
+    margin-left: 10px;
+}
+
+.projects-sections ol {
+    padding-left: 17px;
+}
+
+.projects-item a {
+    color: #595959;
+}
+
+ol li {
+    font-weight: 700;
+}
+
+.about-construction {
+    Font-family: 'Montserrat';
+    Font-style: normal;
+    font-weight: 700;
+    Font-size: 16px;
+    Line-height: 20px;
+    Line-height: 100%;
+}
+
+.about-date {
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 12px;
+    Line-height: 15px;
+    Lineheight: 100%;
+}
+
+.work-experience-company {
+    color: #FB6D3A;
+}
+
+/* sidebar styles */
+
+.sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+}
+
+.sidebar-section img {
+    margin-top: 40px;
+}
+
+.Sidebar-title {
+    font-size: 22px;
+    line-height: 27px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.contacts-section {
+    padding-left: 40px;
+}
+
+.tech-skills-section {
+    padding-left: 40px;
+}
+
+.soft-skills-section {
+    padding-left: 40px;
+}
+
+.contacts-section-type, .contacts-section-type {
+    font-style: normal;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contacts-section-value, .contacts-section-value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3A4352;
+}
+
+.Sidebar-list {
+    color: #fb6d3a;
+    padding-left: 20px;
+}
+
+.Sidebar-list span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
