@@ -1,5 +1,12 @@
+:root {
+    --black: #212121;
+    --background-color: #E5E5E5;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 body{
-    background-color: #E5E5E5;
+    background-color: var(--background-color);
     font-family: 'Montserrat alternates', sans-serif;
 }
 
@@ -153,15 +160,15 @@ ol li {
 }
 
 .contacts-section {
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 
 .tech-skills-section {
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 
 .soft-skills-section {
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 
 .contacts-section-type, .contacts-section-type {
@@ -192,4 +199,54 @@ ol li {
     font-size: 14px;
     line-height: 24px;
     color: #fff;
+}
+
+/* Find us on */
+
+.link-footer {
+    /* padding-left: 40px; */
+}
+
+.link-footer > h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 27px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.icon-find {
+    display: flex;
+    gap: 10px;
+    width: 207px;
+    height: 44px;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 10px;
+    width: 44px;
+    height: 44px;
+    /* margin-top: 20px; */
+}
+
+.icons-footer .icon-social-footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #3A4352;
+    color: #212121;
+    transition: var(--transition);
+}
+
+.icon-social-footer > svg {
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+}
+
+.icons-footer .icon-social-footer:hover,
+.icons-footer .icon-social-footer:focus {
+    background-color: #fff;
+    color: #fb6d3a;
 }
