@@ -208,7 +208,7 @@ ol li {
 }
 
 .link-footer > h2 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 22px;
     line-height: 27px;
     font-style: normal;
@@ -217,17 +217,17 @@ ol li {
 
 .icon-find {
     display: flex;
+    align-items: start;
+    /* justify-content: start; */
     gap: 10px;
-    width: 207px;
+    width: 206px;
     height: 44px;
 }
 
 .icons-footer {
     display: flex;
-    gap: 10px;
     width: 44px;
     height: 44px;
-    /* margin-top: 20px; */
 }
 
 .icons-footer .icon-social-footer {
