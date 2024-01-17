@@ -152,6 +152,21 @@ ol li {
     margin-top: 40px;
 }
 
+.image {
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #627089;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.sidebar-image {
+    border-radius: 20px;
+    margin: 5px;
+}
+
 .Sidebar-title {
     font-size: 22px;
     line-height: 27px;
@@ -250,3 +265,4 @@ ol li {
     background-color: #fff;
     color: #fb6d3a;
 }
+
