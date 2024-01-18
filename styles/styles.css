@@ -134,7 +134,7 @@ ol li {
     Font-style: Regular;
     Font-size: 12px;
     Line-height: 15px;
-    Lineheight: 100%;
+    line-height: 100%;
 }
 
 .work-experience-company {
@@ -266,3 +266,8 @@ ol li {
     color: #fb6d3a;
 }
 
+/* Tablet */
+
+
+
+/* Desktop */
