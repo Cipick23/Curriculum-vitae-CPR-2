@@ -189,7 +189,7 @@ ol li {
 /* sidebar styles */
 
 .sidebar-section {
-    position: absolute;
+    position: fixed;
     z-index: 2;
     right: 1125px;
     top: 28px;
